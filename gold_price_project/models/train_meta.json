@@ -1,0 +1,38 @@
+{
+  "seq_len": 30,
+  "nn_feature_cols": [
+    "Close/Last",
+    "Open",
+    "High",
+    "Low",
+    "Volume",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "daily_return",
+    "hl_ratio",
+    "day_of_week",
+    "month",
+    "day_of_year"
+  ],
+  "target_idx_in_scaled": 0,
+  "feature_cols": [
+    "Open",
+    "High",
+    "Low",
+    "Volume",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "daily_return",
+    "hl_ratio",
+    "day_of_week",
+    "month",
+    "day_of_year"
+  ],
+  "trained_at": "2026-07-09T14:58:32.934309"
+}
